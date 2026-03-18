@@ -1,0 +1,9 @@
+{
+  "name": "CADBuildr",
+  "description": "CADBuildr Skills + CADBuildr MCP server packaged as a Cursor plugin",
+  "version": "0.1.0",
+  "author": {
+    "name": "CADbuildr",
+    "url": "https://cadbuildr.com"
+  }
+}

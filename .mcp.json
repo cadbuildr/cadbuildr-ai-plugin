@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cadbuildr": {
+      "type": "http",
+      "url": "https://mcp.cadbuildr.com/mcp/",
+      "headers": {
+        "x-api-key": "${CADBUILDR_API_KEY}"
+      }
+    }
+  }
+}

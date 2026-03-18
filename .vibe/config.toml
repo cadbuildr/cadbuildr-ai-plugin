@@ -1,0 +1,10 @@
+skill_paths = ["./skills"]
+
+[[mcp_servers]]
+name = "cadbuildr"
+transport = "http"
+url = "https://mcp.cadbuildr.com/mcp/"
+api_key_env = "CADBUILDR_API_KEY"
+api_key_header = "x-api-key"
+api_key_format = "{token}"
+
