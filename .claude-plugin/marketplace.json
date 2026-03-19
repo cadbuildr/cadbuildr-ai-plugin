@@ -1,7 +1,12 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cadbuildr-plugin-marketplace",
   "version": "1.0.0",
   "description": "CADbuildr plugin marketplace for Claude Code",
+  "owner": {
+    "name": "CADbuildr",
+    "email": "clement@cadbuildr.com"
+  },
   "plugins": [
     {
       "name": "cadbuildr",

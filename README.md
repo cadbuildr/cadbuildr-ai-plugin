@@ -16,11 +16,25 @@ To obtain a key go to `hub.cadbuildr.com/settings`
 
 ### Install from CADbuildr marketplace (recommended)
 
+Run Claude Code from your project directory:
+
+```bash
+claude
+```
+
+Then run these commands **inside the Claude chat session** (not in your shell):
+
 ```text
 /plugin marketplace add cadbuildr/cadbuildr-ai-plugin
 /plugin install cadbuildr@cadbuildr-ai-plugin
 /reload-plugins
 ```
+
+What each command does:
+
+- `/plugin marketplace add ...` registers the CADbuildr marketplace (usually one-time per machine/scope)
+- `/plugin install ...` installs the CADbuildr plugin from that marketplace
+- `/reload-plugins` reloads installed plugins in the current Claude session
 
 ### Local development fallback (`--plugin-dir`)
 
