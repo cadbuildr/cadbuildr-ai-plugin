@@ -14,6 +14,16 @@ To obtain a key go to `hub.cadbuildr.com/settings`
 
 ## Claude Code setup
 
+### Install from CADbuildr marketplace (recommended)
+
+```text
+/plugin marketplace add cadbuildr/cadbuildr-ai-plugin
+/plugin install cadbuildr@cadbuildr-ai-plugin
+/reload-plugins
+```
+
+### Local development fallback (`--plugin-dir`)
+
 Run Claude from your project with this plugin directory:
 
 ```bash
@@ -77,6 +87,7 @@ Vibe discovers skills through `.vibe/config.toml`.
 ## Repository contents
 
 - `.claude-plugin/plugin.json` - Claude Code plugin metadata
+- `.claude-plugin/marketplace.json` - Claude Code marketplace catalog
 - `.cursor-plugin/plugin.json` - Cursor plugin metadata
 - `.agents/skills/*/SKILL.md` - Codex skill discovery wrappers
 - `.mcp.json` - CADbuildr MCP server configuration
